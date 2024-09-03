@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nav bar</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Arial,Sans-serif;
+      padding-top:40px;
+      padding-left:20px;
+      padding-right:20px;
+      background:linear-gradient(to top left,  #E6F7FF 50%,  #4BB7FF 50%);
+      height:96vh;
+    }
+    .navbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      background-color:#4D94FF;
+      padding:15px 20px;
+      border-radius:10px;
+      border:2px solid white;
+    }
+    .logo{
+      font-size:30px;
+      color:white;
+      font-weight:bold;
+    }
+    .nav-links{
+      list-style:none;
+      margin:0;
+      padding:0;display:flex;
+      gap:20px;
+      color:white;
+      font-size:24px;
+    }
+    .nav-links li{
+      display:inline;
+    }
+    .nav links a {
+      text-decoration:none;
+      color:white;
+      font-size:16px;
+      padding:5px 10px;
+      transition:background-color 0,3s ease;
+    }
+    .nav-links a:hover{
+      background-color:rgb(225,255,255, 0.2);
+      color:white;
+      border-radius:5px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Navbar</div>
+    <ul class="nav-links">
+      <li><a href="#"></a>Home</li>
+      <li><a href="#"></a>Feature</li>
+      <li><a href="#"></a>Service</li>
+      <li><a href="#"></a>Our Work</li>
+    </ul>
+  </nav>
+  
+</body>
+</html>
